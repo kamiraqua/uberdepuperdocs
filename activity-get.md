@@ -65,7 +65,7 @@ RESPONSE FIELDS:
  -	**spot**, shows information about the spot where the user became king, see: [activity spot](<link naar spot pagina>)
  -	**stats**, shows the stats about the becoming of king, see: [activity stats](<link naar stats pagina>) 
 
- *If the activity type is �medal� the following fields will be returned.*
+ *If the activity type is "medal" the following fields will be returned.*
 
  -	**points**, shows the points that were earned by earning the medal.
  -	**time**, shows the time at which the medal was earned(*timestamp*).
@@ -73,7 +73,7 @@ RESPONSE FIELDS:
  -	**medal**, shows information about the medal that was earned, see: [activity medal](<link naar medal pagina>)
  -	**stats**, shows the stats of the earning of the medal, see: [activity stats](<link naar stats pagina>)
 
- *If the activity type is �event_created� the following fields will be returned.*
+ *If the activity type is "event_created" the following fields will be returned.*
 
  -	**points**, shows the points that were earned by creating the event.
  -	**time**, shows the time at which the event was created(*timestamp*).
@@ -82,7 +82,7 @@ RESPONSE FIELDS:
  -	**spot**, shows information about the spot where the event is located, see: [activity spot](<link naar spot pagina>)
  -	**stats**, shows the stats of the creation of the event, see: [activity stats](<link naar stats pagina>) 
 
- *If the activity type is �event_checkin� the following fields will be returned.*
+ *If the activity type is "event_checkin" the following fields will be returned.*
 
  -	**message**, shows the message that was put at the moment of checking in.
  -	**points**, shows the points that were earned with this check in.
