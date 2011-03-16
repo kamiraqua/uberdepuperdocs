@@ -48,7 +48,8 @@ RESPONSE FIELDS:
  -	**_id**, the id of the activity.
  -	**type**, the type of the activity. Can be checkin, king, medal, event_created or event_checkin.
 
- *If the activity type is “checkin” the following fields will be returned.* 
+ *If the activity type is ï¿½checkinï¿½ the following fields will be returned.* 
+
  -	**message**, shows the message that was put at the moment of checking in.
  -	**points**, shows the points that were earned with this checkin.
  -	**time**, shows the time of the check in(*timestamp*).
@@ -56,21 +57,24 @@ RESPONSE FIELDS:
  -	**user**, shows information about the user who checked in, see: [activity user](<link naar user pagina>)
  -	**spot**, shows information about the spot where the check in was, see: [activity spot](<link naar spot pagina>)
 
- *If the activity type is “king” the following fields will be returned.*
+ *If the activity type is ï¿½kingï¿½ the following fields will be returned.*
+
  -	**points**, shows the points that were earned by becoming king.
  -	**time**, shows the time that the user became king(*timestamp*).
  -	**user**, shows information about the user who became king, see: [activity king](<link naar user pagina>)
  -	**spot**, shows information about the spot where the user became king, see: [activity spot](<link naar spot pagina>)
  -	**stats**, shows the stats about the becoming of king, see: [activity stats](<link naar stats pagina>) 
 
- *If the activity type is “medal” the following fields will be returned.*
+ *If the activity type is ï¿½medalï¿½ the following fields will be returned.*
+
  -	**points**, shows the points that were earned by earning the medal.
  -	**time**, shows the time at which the medal was earned(*timestamp*).
  -	**user**, shows information about the user who earned the medal, see: [activity user](<link naar user pagina>)
  -	**medal**, shows information about the medal that was earned, see: [activity medal](<link naar medal pagina>)
  -	**stats**, shows the stats of the earning of the medal, see: [activity stats](<link naar stats pagina>)
 
- *If the activity type is “event_created” the following fields will be returned.*
+ *If the activity type is ï¿½event_createdï¿½ the following fields will be returned.*
+
  -	**points**, shows the points that were earned by creating the event.
  -	**time**, shows the time at which the event was created(*timestamp*).
  -	**user**, shows information about the user who created the event, see: [activity user](<link naar user pagina>)
@@ -78,7 +82,8 @@ RESPONSE FIELDS:
  -	**spot**, shows information about the spot where the event is located, see: [activity spot](<link naar spot pagina>)
  -	**stats**, shows the stats of the creation of the event, see: [activity stats](<link naar stats pagina>) 
 
- *If the activity type is “event_checkin” the following fields will be returned.*
+ *If the activity type is ï¿½event_checkinï¿½ the following fields will be returned.*
+
  -	**message**, shows the message that was put at the moment of checking in.
  -	**points**, shows the points that were earned with this check in.
  -	**time**, shows the time of the check in(*timestamp*)
