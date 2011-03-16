@@ -25,6 +25,7 @@ PARAMETERS:
  - None
 
 **Optional:**
+
  - **Lat**(*float*), returns spots at the given geolocation. *Requires lng*.
  - **Lng**(*float*), returns spots at the given geolocation. *Requires lat*.
  - **Name**(*string*), returns spots with the given name.
@@ -33,7 +34,9 @@ PARAMETERS:
  - **Q**(*string*), returns spots with a name similar to the value.
  - **Spot**(*string*), returns the spot with the given spotid.
  - **User**(*string*), returns all spots where the given user checked in. (userid)
+
 **Extra:**
+
  - **Sort**(*string*), if relevancy, sorts spots by similarity to your searchterm (q only), if distance, sorts by distance from your current location, if week, sorts spots by weeks, if month, sorts spots by month, if day, sorts spots by day, if undefined, does nothing.
  
 RESPONSE FIELDS:
