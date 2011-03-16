@@ -54,7 +54,7 @@ RESPONSE FIELDS:
 
 EXAMPLES:
 ---------
- - **lat & lng**, [http://api.feest.je/1/activity/get?lat=53.2159195&lng=6.5616468](http://api.feest.je/1/activity/get?lat=53.2159195&lng=6.5616468)
+ - **lat & lng**, [http://api.feest.je/1/spot/get?lat=53.2159195&lng=6.5616468](http://api.feest.je/1/activity/get?lat=53.2159195&lng=6.5616468)
  - **name**, [http://api.feest.je/1/spot/get?name=Feest.je%20hq](http://api.feest.je/1/spot/get?name=Feest.je%20hq)
  - **city**, [http://api.feest.je/1/spot/get?city=Groningen](http://api.feest.je/1/spot/get?city=Groningen)
  - **street**, [http://api.feest.je/1/spot/get?street=munnekeholm%202](http://api.feest.je/1/spot/get?street=munnekeholm%202)
