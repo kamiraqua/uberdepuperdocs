@@ -21,7 +21,9 @@ This call returns an array of spots. Depending on the parameters. 
 PARAMETERS:
 -----------
 **Required:**
+
  - None
+
 **Optional:**
  - **Lat**(*float*), returns spots at the given geolocation. *Requires lng*.
  - **Lng**(*float*), returns spots at the given geolocation. *Requires lat*.
