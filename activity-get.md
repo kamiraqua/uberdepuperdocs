@@ -48,7 +48,7 @@ RESPONSE FIELDS:
  -	**_id**, the id of the activity.
  -	**type**, the type of the activity. Can be checkin, king, medal, event_created or event_checkin.
 
- *If the activity type is �checkin� the following fields will be returned.* 
+ *If the activity type is "checkin" the following fields will be returned.* 
 
  -	**message**, shows the message that was put at the moment of checking in.
  -	**points**, shows the points that were earned with this checkin.
