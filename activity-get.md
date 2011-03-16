@@ -57,7 +57,7 @@ RESPONSE FIELDS:
  -	**user**, shows information about the user who checked in, see: [activity user](<link naar user pagina>)
  -	**spot**, shows information about the spot where the check in was, see: [activity spot](<link naar spot pagina>)
 
- *If the activity type is �king� the following fields will be returned.*
+ *If the activity type is "king" the following fields will be returned.*
 
  -	**points**, shows the points that were earned by becoming king.
  -	**time**, shows the time that the user became king(*timestamp*).
