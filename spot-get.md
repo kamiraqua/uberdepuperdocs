@@ -1,6 +1,6 @@
 URL:
 ----
-[http://api.feest.je/1/spot/get] (http://api.feest.je/1/spot/get)
+[http://api.feest.je/1/spot/get](http://api.feest.je/1/spot/get)
  
 REQUEST METHOD:
 ---------------
@@ -43,7 +43,7 @@ RESPONSE FIELDS:
  - **Address**, shows the address of the spot, see: [address](<link naar address pagina>)
  - **Metadata**, shows the metadata of the spot, see: [spot metadata](<link naar metadata pagina>)
  - **Creator**, shows information about the creator of the spot, see: [creator](<link naar creator pagina>)
- - **Stats**, shows the stats of the spot, see: [spot stats](<link naar spot stats pagina>>
+ - **Stats**, shows the stats of the spot, see: [spot stats](<link naar spot stats pagina>)
  - **Rating**, shows the rating of the spot, see: [spot rating](<link naar rating pagina>)
  - **King**, shows information about the king of the spot, see: [king](<link naar king pagina>)
 
