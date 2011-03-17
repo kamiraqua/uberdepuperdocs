@@ -49,5 +49,5 @@ EXAMPLES:
 ---------
 
  - **user**, [http://api.feest.je/1/medal/get/?user=9dae1fdbeace59c2008d388d6d3cf242](http://api.feest.je/1/medal/get/?user=9dae1fdbeace59c2008d388d6d3cf242)
- - **medal**, [http://api.feest.je/1/medal/get/?medal=36e9041569cd540a2441ca6809f16b14](http://api.feest.je/1/medal/get/?medal=36e9041569cd540a2441ca6809f16b14]
+ - **medal**, [http://api.feest.je/1/medal/get/?medal=36e9041569cd540a2441ca6809f16b14](http://api.feest.je/1/medal/get/?medal=36e9041569cd540a2441ca6809f16b14)
  - **earned**, [http://api.feest.je/1/medal/get/?user=9dae1fdbeace59c2008d388d6d3cf242&earned=true](http://api.feest.je/1/medal/get/?user=9dae1fdbeace59c2008d388d6d3cf242&earned=true)
