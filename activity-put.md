@@ -4,7 +4,8 @@ URL:
 
 REQUEST METHOD:
 ---------------
-POST
+POST(content-type: application/x-www-form-urlencoded)
+
 
 RATE LIMIT:
 -----------
