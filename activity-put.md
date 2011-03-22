@@ -54,11 +54,11 @@ EXAMPLES:
  - **id & type**, [http//api.feest.je/1/activity/put/](http//api.feest.je/1/activity/put/) with post data "id=607582b687a1d3af4981e6467301ec20&type=checkin"
  This call checks the user in at the spot with the id '607582b687a1d3af4981e6467301ec20'.
  
- - **message**, [http//api.feest.je/1/activity/put/id=607582b687a1d3af4981e6467301ec20&type=checkin&message=awesome%20checkin](http//api.feest.je/1/activity/put/id=607582b687a1d3af4981e6467301ec20&type=checkin&message=awesome%checkin)
+ - **message**, [http//api.feest.je/1/activity/put/](http//api.feest.je/1/activity/put/) with post data "id=607582b687a1d3af4981e6467301ec20&type=checkin&message=awesome%20checkin"
  This call checks the user in at the spot with the id '607582b687a1d3af4981e6467301ec20' and adds the message 'awesome checkin'.
  
- - **push**, [http//api.feest.je/1/activity/put/id=607582b687a1d3af4981e6467301ec20&type=checkin&push=true](http//api.feest.je/1/activity/put/id=607582b687a1d3af4981e6467301ec20&type=checkin&push=true)
+ - **push**, [http//api.feest.je/1/activity/put/](http//api.feest.je/1/activity/put/) with post data "id=607582b687a1d3af4981e6467301ec20&type=checkin&push=true"
  This call checks the user in at the spot with the id '607582b687a1d3af4981e6467301ec20' and pushes that message to all of his followers.
  
- - **social**, [http//api.feest.je/1/activity/put/id=607582b687a1d3af4981e6467301ec20&type=checkin&social=twitter](http//api.feest.je/1/activity/put/id=607582b687a1d3af4981e6467301ec20&type=checkin&social=twitter)
+ - **social**, [http//api.feest.je/1/activity/put/](http//api.feest.je/1/activity/put/) with post data "id=607582b687a1d3af4981e6467301ec20&type=checkin&social=twitter"
  This call checks the user in at the spot with the id '607582b687a1d3af4981e6467301ec20' and pushes that message to twitter.
