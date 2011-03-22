@@ -51,7 +51,7 @@ RESPONSE FIELDS:
 EXAMPLES:
 ---------
  
- - **id & type**, [http//api.feest.je/1/activity/put/id=607582b687a1d3af4981e6467301ec20&type=checkin](http//api.feest.je/1/activity/put/id=607582b687a1d3af4981e6467301ec20&type=checkin)
+ - **id & type**, [http//api.feest.je/1/activity/put/](http//api.feest.je/1/activity/put/) with post data "id=607582b687a1d3af4981e6467301ec20&type=checkin"
  This call checks the user in at the spot with the id '607582b687a1d3af4981e6467301ec20'.
  
  - **message**, [http//api.feest.je/1/activity/put/id=607582b687a1d3af4981e6467301ec20&type=checkin&message=awesome%20checkin](http//api.feest.je/1/activity/put/id=607582b687a1d3af4981e6467301ec20&type=checkin&message=awesome%checkin)
