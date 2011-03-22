@@ -30,7 +30,7 @@ PARAMETERS:
 
  - **message**(*string*), adds a message to the activity. The maximum length of the message is 100 characters.
  - **push**(*bool*), if true, it pushes the activity to followers, does nothing otherwise.
- - **social**(*string*), sets to which social media the activity should be pushed. All media are separated by an ':'.
+ - **social**(*string*), sets to which social media the activity should be pushed. Can be twitter, facebook, foursquare and hyves. All media are separated by an ':'.
  
  
 **Extra:**
