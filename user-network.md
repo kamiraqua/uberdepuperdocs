@@ -1,0 +1,46 @@
+URL:
+----
+[http://api.feest.je/1/user/network/](http://api.feest.je/1/user/network/)
+
+REQUEST METHOD:
+---------------
+GET
+
+RATE LIMIT:
+-----------
+True, see: [rate limiting](<link naar ratelimitpagina>)
+
+AUTHENTICATION REQUIRED:
+------------------------
+False, see: [authentication](<link naar authentication pagina>)
+
+SUMMARY:
+--------
+This call returns all people that are followed by and follow the given user.
+
+PARAMETERS:
+-----------
+
+**Required:**
+
+ - **user**(*string*), returns only people that are followed by and/or follow the given user.
+ 
+**Optional:**
+
+ - **show**(*string*), if 'followers', returns only people that follow the given user, if 'following', returns only people that are followed by the user, returns all otherwise.
+
+**Extra:**
+
+ - None
+
+RESPONSE FIELDS:
+----------------
+ - **_id**, shows the id of the user.
+ - **username**, shows the username of the user.
+ - **name**, shows the real name of the user.
+
+EXAMPLES:
+---------
+- **user**, [http://api.feest.je/1/user/network/?user=sinterklaas](http://api.feest.je/1/user/network/?user=sinterklaas)
+
+- **show**, [http://api.feest.je/1/user/network/?user=sinterklaas&show=followers](http://api.feest.je/1/user/network/?user=sinterklaas&show=followers)
