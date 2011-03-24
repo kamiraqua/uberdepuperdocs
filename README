@@ -19,20 +19,20 @@ RelationExists.php
 ReplyGet.php
 SpotGet.php
 UserGet.php
-
-Todo (gesorteerd)
 UserTimeline.php
 ReplyPut.php
 EventRsvp.php
-SpotPut.php
 UserNetwork.php
 RelationCreate.php
 UsersSuggest.php
+RelationDestroy.php
+DmPut.php
+
+Todo (gesorteerd)
+SpotPut.php
 EventPut.php
 EventUpdate.php
 EventPhoto.php
-RelationDestroy.php
-DmPut.php
 RankingEvents.php
 RankingFriends.php
 RankingSpots.php
