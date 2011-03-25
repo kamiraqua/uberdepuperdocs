@@ -60,4 +60,5 @@ RESPONSE FIELDS:
 EXAMPLES:
 ---------
 
-- **general**, [http://api.feest.je/1/spot/put/](http://api.feest.je/1/spot/put/) with post data "{"name":"testspot","address":{"city":"Groningen"}}"
+- **general**, [http://api.feest.je/1/spot/put/](http://api.feest.je/1/spot/put/) with post data 
+    {"name":"testspot","address":{"city":"Groningen"}}
