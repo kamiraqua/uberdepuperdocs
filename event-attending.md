@@ -43,7 +43,7 @@ RESPONSE FIELDS:
  - **username**, shows the username of the user.
  - **public**, shows whether the account is public or not.(*bool*)
  - **sex**, shows the sex of the user. If undefined by the user, this row will not be returned.
- - **stats*, shows some stats of the user concerning this event, see: [event attending stats](<link naar stats pagina>)
+ - **stats**, shows some stats of the user concerning this event, see: [event attending stats](<link naar stats pagina>)
 
 
 EXAMPLES:
