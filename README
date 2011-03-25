@@ -27,12 +27,12 @@ RelationCreate.php
 UsersSuggest.php
 RelationDestroy.php
 DmPut.php
-
-Todo (gesorteerd)
 SpotPut.php
 EventPut.php
 EventUpdate.php
 EventPhoto.php
+
+Todo (gesorteerd)
 RankingEvents.php
 RankingFriends.php
 RankingSpots.php
