@@ -4,7 +4,7 @@ URL:
 
 REQUEST METHOD:
 ---------------
-POST
+POST (Content-Type: application/json)
 
 RATE LIMIT:
 -----------
@@ -24,7 +24,7 @@ PARAMETERS:
 **Required:**
 
  - **name**(*string*), the name of the spot.
- - **adress**(*array*), the address of the spot.
+ - **address**(*array*), the address of the spot.
 	- **city**(*string*), the city where the spot is at.
 
 **Optional:**
@@ -49,5 +49,15 @@ PARAMETERS:
 RESPONSE FIELDS:
 ----------------
 
+ - **name**, the name of the spot.
+ - **address**, information about the address of the spot, see: [spot addess](<link naar address pag>)
+ - **create_date**, shows the exact date and time at which the spot was created(*timestamp*)
+ - **creator**, shows the id of the user that created the spot.
+ - **nameslug**, shows the nameslug of the spot.
+ - **location**, shows the geolocation of the spot, see: [spot location](<link naar location>)
+ - **_id**, shows the id of the spot.
+
 EXAMPLES:
 ---------
+
+- **general**, [http://api.feest.je/1/spot/put/](http://api.feest.je/1/spot/put/) with post data "{"name":"testspot","address":{"city":"Groningen"}}"
