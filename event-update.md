@@ -51,5 +51,20 @@ PARAMETERS:
 RESPONSE FIELDS:
 ----------------
 
+ - **_id**, shows the id of the event.
+ - **name**, shows the name of the event.
+ - **nameslug**, shows the nameslug of the event.
+ - **type**, shows the type of the event(public, etc.)
+ - **location**, shows the geolocation of the event, see: [event location](<link naar location pag>)
+ - **start**, shows the starting time of the event, see: [event start](<link naar start pag>)
+ - **end**, shows the ending time of the event, see: [event end](<link naar end pag>)
+ - **invite**, shows an array with userid's from people who were invited to the event.
+ - **spot**, shows information about the spot where the event will occur, see: [event spot](<link naar spot pag>)
+ - **user**, shows information about the user who created the event, see: [event user](<link naar user pag>)
+ - **stats**, shows the stats of the event, see: [event stats](<link naar stats pag>)
+
 EXAMPLES:
 ---------
+
+- **update event name**, [http://api.feest.je/1/event/update/](http://api.feest.je/1/event/update/) with post data:
+    {"event":"4fd4ba3e38b91d0ba10160c1769eb804","name":"new event name"} 
