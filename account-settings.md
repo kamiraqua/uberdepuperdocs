@@ -39,10 +39,10 @@ RESPONSE FIELDS:
 *All response fields are bools*
 
  - **profileimage**, shows whether the user has a profile image or not.
- - **email**, shows informaton about when to give an email notification to the user, see: [account email](<link naar email pagina>)
- - **notify**, shows information about when to give a push notification to the user, see: [account notify](<link naar notify pagina>)
+ - **email**, shows informaton about when to give an email notification to the user, see: [account email](parts/account-email.md)
+ - **notify**, shows information about when to give a push notification to the user, see: [account notify](parts/account-notify.md)
  - **public**, shows whether the account is public or not.
- - **social**, shows information about what other social networks the user uses, see: [account social](<link naar account social pagina>)
+ - **social**, shows information about what other social networks the user uses, see: [account social](parts/account-social.md)
  - **connection**, shows information about to what social networks the account is connected, see: [account connection](parts/account-connection.md)
 
 
