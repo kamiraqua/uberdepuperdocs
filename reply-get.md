@@ -43,7 +43,7 @@ RESPONSE FIELDS:
  - **message**, shows the actual message of the reply.
  - **time**, shows the time at which the reply was created.
  - **type**, shows the type of the reply. This can be 'event','spot' or 'activity'.
- - **user**, shows information about the user who placed the reply, see:[reply user](<link naar user pagina>)
+ - **user**, shows information about the user who placed the reply, see:[reply user](parts/user.md)
  
 EXAMPLES:
 ---------
