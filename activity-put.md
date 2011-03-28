@@ -43,9 +43,9 @@ RESPONSE FIELDS:
  - **_id**, shows the id of the newly created activity.
  - **type**, shows the type of the newly created activity.
  - **points**, shows the points that were earned with this activity.
- - **stats**, shows the stats of the newly created activity, see:[activity stats](<link naar stats pagina>)
- - **user**, shows information about the user who commited the activity, see:[activity user](<link naar user pagina>)
- - **spot**, shows information about the spot where the user commited the activity, see:[activity spot](<link naar spot pagina>)
+ - **stats**, shows the stats of the newly created activity, see:[activity stats](parts/activity-stats.md)
+ - **user**, shows information about the user who commited the activity, see:[activity user](parts/activity-user.md)
+ - **spot**, shows information about the spot where the user commited the activity, see:[activity spot](parts/activity-spot.md)
  
 
 EXAMPLES:
