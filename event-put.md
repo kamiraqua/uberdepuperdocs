@@ -53,8 +53,18 @@ PARAMETERS:
 RESPONSE FIELDS:
 ----------------
 
-
-
+ - **_id**, the id of the event.
+ - **name**, the name of the event.
+ - **nameslug**, the nameslug of the event.
+ - **type**, the type of the event(public, etc)
+ - **location**, the geolocation of the event, see: [event location](<link naar location pag>)
+ - **start**, the starting time of the event, see:[event start](<link naar start pagina>)
+ - **end**, the ending time of the event, see:[event end](<link naar end pagina>)
+ - **spot**, information about the spot where the event will take place, see: [event spot](<link naar spot pagina>)
+ - **user**, information about the user that created the event, see: [event user](<link naar user pagina>)
+ - **stats**, the stats of the the event, see: [event stats](<link naar stats pagina>)
 
 EXAMPLES:
 ---------
+
+ - **basic event**, [http://api.feest.je/1/event/put](http://api.feest.je/1/event/put) with post data "{"name":"testevent","spot":"607582b687a1d3af4981e6467301ec20","start":{"time":1301047496},"end":{"time":1301048496}} "
