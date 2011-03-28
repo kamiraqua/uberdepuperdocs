@@ -43,7 +43,7 @@ RESPONSE FIELDS:
  - **notify**, shows information about when to give a push notification to the user, see: [account notify](<link naar notify pagina>)
  - **public**, shows whether the account is public or not.
  - **social**, shows information about what other social networks the user uses, see: [account social](<link naar account social pagina>)
- - **connection**, shows information about to what social networks the account is connected, see: [account connection](<link naar connection pagina>)
+ - **connection**, shows information about to what social networks the account is connected, see: [account connection](parts/account-connection.md)
 
 
 EXAMPLES:
