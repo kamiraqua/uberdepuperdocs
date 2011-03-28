@@ -37,10 +37,10 @@ RESPONSE FIELDS:
 ----------------
 
  - **_id**, shows the id of the event that you just signed up to.
- - **event**, contains an array containing the id of the event, see: [rsvp event](<link naar event>)
- - **user**, contains an array containing the id of the user, see: [rsvp user](<link naar user pagina>)
- - **start**, contains an array containing the starting time of the event, see: [rsvp start](<link naar start pagina>)
- - **end**, contains an array containing the ending time of the event, see: [rsvp end](<link naar end pagina>)
+ - **event**, contains an array containing the id of the event, see: [rsvp event](parts/event.md)
+ - **user**, contains an array containing the id of the user, see: [rsvp user](parts/user.md)
+ - **start**, contains an array containing the starting time of the event, see: [rsvp start](parts/start-or-end.md)
+ - **end**, contains an array containing the ending time of the event, see: [rsvp end](parts/start-or-end.md)
  - **status**, the status of the user regarding the event.
  
 EXAMPLES:
