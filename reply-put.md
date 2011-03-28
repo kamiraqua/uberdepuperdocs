@@ -40,7 +40,7 @@ RESPONSE FIELDS:
  - **activity**, the id of the activity, see: [reply activity](<link naar activity pagina>)
  - **time**, the time of the reply(*timestamp*).
  - **type**, the type of the reply.
- - **user**, information about the user that placed the reply, see: [reply user](<link naar user pagina>)
+ - **user**, information about the user that placed the reply, see: [reply user](parts/user.md)
  - **message**, the actual message that the reply contained.
 
 EXAMPLES:
