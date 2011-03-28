@@ -42,7 +42,7 @@ RESPONSE FIELDS:
  - **name**, shows the name of the medal.
  - **slug**, shows the nameslug of the medal.
  - **points**, shows the points that are earned with earning this medal.
- - **user**, shows information whether an user earned the medal, see:[medal user](<link naar medaluser pagina>)
+ - **user**, shows information whether an user earned the medal, see:[medal user](parts/medal-user.md)
  
 
 EXAMPLES:
