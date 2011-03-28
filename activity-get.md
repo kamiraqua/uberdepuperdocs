@@ -53,44 +53,44 @@ RESPONSE FIELDS:
  -	**message**, shows the message that was put at the moment of checking in.
  -	**points**, shows the points that were earned with this checkin.
  -	**time**, shows the time of the check in(*timestamp*).
- -	**stats**,  shows the stats of the check in, see: [activity stats](<link naar stats pagina>)
- -	**user**, shows information about the user who checked in, see: [activity user](<link naar user pagina>)
- -	**spot**, shows information about the spot where the check in was, see: [activity spot](<link naar spot pagina>)
+ -	**stats**,  shows the stats of the check in, see: [activity stats](parts/activity-stats.md)
+ -	**user**, shows information about the user who checked in, see: [activity user](parts/activity-user.md)
+ -	**spot**, shows information about the spot where the check in was, see: [activity spot](parts/activity-spot.md)
 
  *If the activity type is "king" the following fields will be returned.*
 
  -	**points**, shows the points that were earned by becoming king.
  -	**time**, shows the time that the user became king(*timestamp*).
- -	**user**, shows information about the user who became king, see: [activity king](<link naar user pagina>)
- -	**spot**, shows information about the spot where the user became king, see: [activity spot](<link naar spot pagina>)
- -	**stats**, shows the stats about the becoming of king, see: [activity stats](<link naar stats pagina>) 
+ -	**user**, shows information about the user who became king, see: [activity king](parts/activity-user.md)
+ -	**spot**, shows information about the spot where the user became king, see: [activity spot](parts/activity-spot.md)
+ -	**stats**, shows the stats about the becoming of king, see: [activity stats](parts/activity-stats.md) 
 
  *If the activity type is "medal" the following fields will be returned.*
 
  -	**points**, shows the points that were earned by earning the medal.
  -	**time**, shows the time at which the medal was earned(*timestamp*).
- -	**user**, shows information about the user who earned the medal, see: [activity user](<link naar user pagina>)
- -	**medal**, shows information about the medal that was earned, see: [activity medal](<link naar medal pagina>)
- -	**stats**, shows the stats of the earning of the medal, see: [activity stats](<link naar stats pagina>)
+ -	**user**, shows information about the user who earned the medal, see: [activity user](parts/activity-user.md)
+ -	**medal**, shows information about the medal that was earned, see: [activity medal](parts/activity-medal.md)
+ -	**stats**, shows the stats of the earning of the medal, see: [activity stats](parts/activity-stats.md)
 
  *If the activity type is "event_created" the following fields will be returned.*
 
  -	**points**, shows the points that were earned by creating the event.
  -	**time**, shows the time at which the event was created(*timestamp*).
- -	**user**, shows information about the user who created the event, see: [activity user](<link naar user pagina>)
- -	**event**, shows information about the event that was created, see: [activity event](<link naar event pagina>)
- -	**spot**, shows information about the spot where the event is located, see: [activity spot](<link naar spot pagina>)
- -	**stats**, shows the stats of the creation of the event, see: [activity stats](<link naar stats pagina>) 
+ -	**user**, shows information about the user who created the event, see: [activity user](parts/activity-user.md)
+ -	**event**, shows information about the event that was created, see: [activity event](parts/activity-event.md)
+ -	**spot**, shows information about the spot where the event is located, see: [activity spot](parts/activity-spot.md)
+ -	**stats**, shows the stats of the creation of the event, see: [activity stats](parts/activity-stats.md) 
 
  *If the activity type is "event_checkin" the following fields will be returned.*
 
  -	**message**, shows the message that was put at the moment of checking in.
  -	**points**, shows the points that were earned with this check in.
  -	**time**, shows the time of the check in(*timestamp*)
- -	**stats**, shows the stats of the check in, see: [activity stats](<link naar stats pagina>)
- -	**user**, shows information about the user who checked in, see: [activity user](<link naar user pagina>)
- -	**event**, shows information about the even where the user checked in, see: [activity event](<link naar event pagina>)
- -	**spot**, shows information about the spot where the user checked in, see: [activity spot](<link naar spot pagina>)
+ -	**stats**, shows the stats of the check in, see: [activity stats](parts/activity-stats.md)
+ -	**user**, shows information about the user who checked in, see: [activity user](parts/activity-user.md)
+ -	**event**, shows information about the even where the user checked in, see: [activity event](parts/activity-event.md)
+ -	**spot**, shows information about the spot where the user checked in, see: [activity spot](parts/activity-spot.md)
 
 
 EXAMPLES:
