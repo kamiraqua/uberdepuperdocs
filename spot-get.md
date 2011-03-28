@@ -39,6 +39,7 @@ PARAMETERS:
 
  - **Sort**(*string*), if relevancy, sorts spots by similarity to your searchterm (q only), if distance, sorts by distance from your current location, if week, sorts spots by weeks, if month, sorts spots by month, if day, sorts spots by day, if undefined, does nothing.
  
+
 RESPONSE FIELDS:
 ----------------
  - **_id**,  shows the id of the spot.
