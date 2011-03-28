@@ -53,12 +53,12 @@ RESPONSE FIELDS:
  -	**name**, the name of the event.
  -	**nameslug**, the nameslug of the event.
  -	**type**,  the type of the event.
- -	**location**, the geolocation of the event, see:[event location](<link naar location pagina>)
- -	**start**, the start time of the event, see:[event start](<link naar start pagina>)
- -	**end**, the end time of the event, see:[event end](<link naar end pagina>)
- -	**spot**, Information about the spot where the event is at, see:[event spot](<link naar spot pagina>)
- -	**user**, information about the user who created the event, see:[event user](<link naar user pagina>)
- -	**stats**, the stats of the event, see:[event stats](<link naar stats pagina>)
+ -	**location**, the geolocation of the event, see:[event location](parts/location.md)
+ -	**start**, the start time of the event, see:[event start](parts/start-or-end.md)
+ -	**end**, the end time of the event, see:[event end](parts/start-or-end.md)
+ -	**spot**, Information about the spot where the event is at, see:[event spot](parts/spot.md)
+ -	**user**, information about the user who created the event, see:[event user](parts/user.md)
+ -	**stats**, the stats of the event, see:[event stats](parts/event-stats.md)
 
 
 
