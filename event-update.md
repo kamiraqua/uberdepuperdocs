@@ -55,13 +55,13 @@ RESPONSE FIELDS:
  - **name**, shows the name of the event.
  - **nameslug**, shows the nameslug of the event.
  - **type**, shows the type of the event(public, etc.)
- - **location**, shows the geolocation of the event, see: [event location](<link naar location pag>)
- - **start**, shows the starting time of the event, see: [event start](<link naar start pag>)
- - **end**, shows the ending time of the event, see: [event end](<link naar end pag>)
+ - **location**, shows the geolocation of the event, see: [event location](parts/location.md)
+ - **start**, shows the starting time of the event, see: [event start](parts/start-or-end.md)
+ - **end**, shows the ending time of the event, see: [event end](parts/start-or-end.md)
  - **invite**, shows an array with userid's from people who were invited to the event.
- - **spot**, shows information about the spot where the event will occur, see: [event spot](<link naar spot pag>)
- - **user**, shows information about the user who created the event, see: [event user](<link naar user pag>)
- - **stats**, shows the stats of the event, see: [event stats](<link naar stats pag>)
+ - **spot**, shows information about the spot where the event will occur, see: [event spot](parts/spot.md)
+ - **user**, shows information about the user who created the event, see: [event user](parts/user.md)
+ - **stats**, shows the stats of the event, see: [event stats](parts/event-stats.md)
 
 EXAMPLES:
 ---------
