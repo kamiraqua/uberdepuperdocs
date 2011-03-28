@@ -32,7 +32,7 @@ PARAMETERS:
 		
 **Optional:**
 
-- **social(*string*), a list of the socials networks to push to. Every network is separated with a ':'.
+- **social**(*string*), a list of the socials networks to push to. Every network is separated with a ':'.
 - **location**(*array*), an array filled with the geolocation of the event.
 	- **lat**(*float*), the latitude of the geolocation.
 	- **lng**(*float*), the longitude of the geolocation.
