@@ -46,10 +46,10 @@ RESPONSE FIELDS:
  - **nameslug**, shows the nameslug of the deal.
  - **highlighted**, shows whether the deal is highlighted or not.
  - **hasphoto**, shows whether the deal has a foto or not.
- - **metadata**, shows the metadata of the deal, see: [deal metadata](<link naar metadata pagina>)
- - **start**, shows the starting time of the deal, see: [deal start](<link naar start pagina>)
- - **end**, shows the ending time fo the deal, see: [deal end](<link naar end pagina>)
- - **spot**, shows information about the spot where the deal is, see: [deal spot](<link naar spot pagina>)
+ - **metadata**, shows the metadata of the deal, see: [deal metadata](parts/deal-metadata.md)
+ - **start**, shows the starting time of the deal, see: [deal start](parts/start-or-end.md)
+ - **end**, shows the ending time fo the deal, see: [deal end](parts/start-or-end.md)
+ - **spot**, shows information about the spot where the deal is, see: [deal spot](parts/spot.md)
 
 EXAMPLES:
 ---------

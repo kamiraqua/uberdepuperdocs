@@ -44,8 +44,8 @@ RESPONSE FIELDS:
  - **_id**, shows the id of the direct message.
  - **time**, shows the time at which the message was send(*timestamp*)
  - **message**, shows the actual message of the direct message.
- - **from**, shows information about the user who send the message, see:[dm from](<link naar from pagina>)
- - **to**, shows information about the user who received the message, see:[dm to](<link naar to pagina>)
+ - **from**, shows information about the user who send the message, see:[dm from](parts/dm-user.md)
+ - **to**, shows information about the user who received the message, see:[dm to](parts/dm-user.md)
  
 
 
