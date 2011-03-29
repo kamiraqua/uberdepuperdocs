@@ -50,11 +50,11 @@ RESPONSE FIELDS:
 ----------------
 
  - **name**, the name of the spot.
- - **address**, information about the address of the spot, see: [spot addess](<link naar address pag>)
+ - **address**, information about the address of the spot, see: [spot addess](parts/address.md)
  - **create_date**, shows the exact date and time at which the spot was created(*timestamp*)
  - **creator**, shows the id of the user that created the spot.
  - **nameslug**, shows the nameslug of the spot.
- - **location**, shows the geolocation of the spot, see: [spot location](<link naar location>)
+ - **location**, shows the geolocation of the spot, see: [spot location](parts/location.md)
  - **_id**, shows the id of the spot.
 
 EXAMPLES:
