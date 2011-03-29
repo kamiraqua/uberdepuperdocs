@@ -45,13 +45,13 @@ RESPONSE FIELDS:
  - **_id**,  shows the id of the spot.
  - **Name**, shows the name of the spot.
  - **Nameslug**, shows the nameslug of the spot.
- - **Location**, shows the geolocation of the spot, see: [location](<link naar location pagina>)
- - **Address**, shows the address of the spot, see: [address](<link naar address pagina>)
- - **Metadata**, shows the metadata of the spot, see: [spot metadata](<link naar metadata pagina>)
- - **Creator**, shows information about the creator of the spot, see: [creator](<link naar creator pagina>)
- - **Stats**, shows the stats of the spot, see: [spot stats](<link naar spot stats pagina>)
- - **Rating**, shows the rating of the spot, see: [spot rating](<link naar rating pagina>)
- - **King**, shows information about the king of the spot, see: [king](<link naar king pagina>)
+ - **Location**, shows the geolocation of the spot, see: [location](parts/location.md)
+ - **Address**, shows the address of the spot, see: [address](parts/address.md)
+ - **Metadata**, shows the metadata of the spot, see: [spot metadata](parts/spot-metadata.md)
+ - **Creator**, shows information about the creator of the spot, see: [creator](parts/creator.md)
+ - **Stats**, shows the stats of the spot, see: [spot stats](parts/spot-stats.md)
+ - **Rating**, shows the rating of the spot, see: [spot rating](parts/rating.md)
+ - **King**, shows information about the king of the spot, see: [king](parts/king.md)
 
 EXAMPLES:
 ---------
