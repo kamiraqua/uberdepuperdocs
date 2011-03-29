@@ -40,6 +40,9 @@ RESPONSE FIELDS:
  - **_id**, shows the id of the user.
  - **name**, shows the name of the user.
  - **username**, shows the username of the user.
+
+*The following fields will only be shown if the user is public*
+
  - **public**, shows whether the user is public or not.(*bool*)
  - **bio**, shows the biografy of the user.
  - **city**, shows the homecity of the user.
