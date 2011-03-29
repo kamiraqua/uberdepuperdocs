@@ -47,13 +47,13 @@ RESPONSE FIELDS:
  - **bio**, shows the biografy of the user.
  - **city**, shows the homecity of the user.
  - **site**, shows the website of the user.
- - **following**, shows an array of people that the user follows, see:[user following](<link naar following pagina>)
- - **stats**, shows the stats of the user, see:[user stats](<link naar stats pagina>)
- - **followers**, shows an array of people that follow the user, see:[user followers](<link naar followers pagina>)
- - **checkins**, shows the last checkin of the user, see:[user checkins](<link naar checkin pagina>)
- - **kingdom**, shows the kingdom of the user, see:[user kingdom](<link naar kingdom pagina>)
- - **medals**, shows the medals that the user earned, see:[user medals](<link naar medals pagina>)
- - **spots**, shows the spots that the user visited, see:[user spots](<link naar spots pagina>)
+ - **following**, shows an array of people that the user follows, see:[user following](parts/user-follow.md)
+ - **stats**, shows the stats of the user, see:[user stats](parts/user-stats.md)
+ - **followers**, shows an array of people that follow the user, see:[user followers](parts/user-follow.md)
+ - **checkins**, shows the last checkin of the user, see:[user checkins](parts/user-checkin.md)
+ - **kingdom**, shows the kingdom of the user, see:[user kingdom](parts/user-kingdom.md)
+ - **medals**, shows the medals that the user earned, see:[user medals](parts/user-medals.md)
+ - **spots**, shows the spots that the user visited, see:[user spots](parts/user-spots.md)
 
 EXAMPLES:
 ---------
