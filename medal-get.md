@@ -12,7 +12,7 @@ True, see: [rate limiting](parts/rate-limiting.md)
 
 AUTHENTICATION REQUIRED:
 ------------------------
-False, see: [authentication](<link naar authenticationpagina>)
+False, see: [authentication](parts/authentication.md)
 
 SUMMARY:
 --------
