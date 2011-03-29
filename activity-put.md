@@ -9,7 +9,7 @@ POST(content-type: application/x-www-form-urlencoded)
 
 RATE LIMIT:
 -----------
-True, see: [rate limiting](<link naar ratelimitpagina>)
+True, see: [rate limiting](parts/rate-limiting.md)
 
 AUTHENTICATION REQUIRED:
 ------------------------
