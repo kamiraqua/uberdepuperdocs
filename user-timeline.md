@@ -47,9 +47,9 @@ RESPONSE FIELDS:
  - **message**, shows the message that was put with the activity.
  - **points**, shows the points that were earned with the activity.
  - **time**, shows the time of the activity.(*timestamp*)
- - **stats**, shows the stats of the activity, see: [activity stats](<link naar stats pagina>)
- - **user**, shows the basic information of the user who commited the activity, see: [activity user](<link naar user pagina>)
- - **spot**, shows information about the spot where the activity took place, see: [activity spot](<link naar spot pagina>)
+ - **stats**, shows the stats of the activity, see: [activity stats](parts/timeline-stats.md)
+ - **user**, shows the basic information of the user who commited the activity, see: [activity user](parts/user.md)
+ - **spot**, shows information about the spot where the activity took place, see: [activity spot](parts/spot.md)
 
 EXAMPLES:
 ---------
