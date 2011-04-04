@@ -33,6 +33,9 @@ PARAMETERS:
  - **deal**(*string*), returns the deal with the given *dealid*.
  - **highlighted**(*bool*), if true, returns highlighted deals only, if false, returns non highlighted deals only, if other, returns all deals
  - **spot**(*string*), returns deals at the spot with the given *spotid*.
+ - **limit**(*int*), sets the number of deals that should be returned. Defaulted to 25.
+ - **skip**(*int*), sets the number of deals that should be skipped. Defaulted to 0.
+ - **radius**(*int*), sets the range in which to return deals. Range in kilometers. Defaulted to 5.
 
 **Extra:**
 
