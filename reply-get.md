@@ -34,7 +34,8 @@ PARAMETERS:
 
 **Extra:**
 
- - None
+ - **limit**(*int*), sets the number of replies that should be returned. Defaulted to 100.
+ - **skip**(*int*), sets the number of replies that should be skipped. Defaulted to 0.
 
 RESPONSE FIELDS:
 ----------------
