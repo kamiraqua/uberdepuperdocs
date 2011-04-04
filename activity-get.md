@@ -41,6 +41,9 @@ PARAMETERS:
 
  - **since**(*timestamp*), returns activities since the given date and time.
  - **until**(*timestamp*), returns activities until the given date and time.
+ - **limit**(*int*), sets the number of activities that should be returned. Is defaulted to 25.
+ - **skip**(*int*), sets the numer of activities that should be skipped. Is defaulted to 0.
+ - **radius**(*int*), sets the range in which to return activities. Range in kilometers. Is defaulted to 1.
 
 RESPONSE FIELDS:
 ----------------
