@@ -49,7 +49,7 @@ PARAMETERS:
  - **update**(*bool*), 
  - **limit**(*int*), sets the number of events that should be returned. Defaulted to 25.
  - **skip**(*int*), sets the number of events that should be skipped. Defaulted to 0.
- - **when**(*string*),
+ - **when**(*string*), if 'calendar', returns all events that the user signed op to, if 'now', returns all events that are happening right now, if 'upcoming', returns all events that are starting in the future, if 'allways', returns all events. Defaulted to 'allways'.
 
 RESPONSE FIELDS:
 ----------------
