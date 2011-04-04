@@ -36,8 +36,14 @@ PARAMETERS:
  - **event**(*string*), returns only activities at the given event.
  - **lat**(*float*), returns only activities at the given geolocaton. Requires lng.
  - **lng**(*float*), returns only activities at the given geolocation. Requires lat.
- 
+ - **limit**(*int*), sets the number of activities that should be returned. Defaulted to 25.
+ - **skip**(*int*), sets the number of activities that should be skipped. Defaulted to 0.
+ - **radius**(*int*), sets the range in which activities should be returned. Range in kilometers. Defaulted to 1.
+ - **show**(*string*,   
+
 **Extra:**
+
+ - None
 
 
 RESPONSE FIELDS:
