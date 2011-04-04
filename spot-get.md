@@ -38,6 +38,9 @@ PARAMETERS:
 **Extra:**
 
  - **Sort**(*string*), if relevancy, sorts spots by similarity to your searchterm (q only), if distance, sorts by distance from your current location, if week, sorts spots by weeks, if month, sorts spots by month, if day, sorts spots by day, if undefined, does nothing.
+ - **radius**(*int*), set the range in which to return spots. Range in kilometers. Defaulted to 1.
+ - **limit**(*int*), set the number of spots to return. Defaulted to 25.
+ - **skip**(*int*), set the number of spots that should be skipped. Defaulted to 0.
  
 
 RESPONSE FIELDS:
