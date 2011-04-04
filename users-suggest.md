@@ -31,7 +31,9 @@ PARAMETERS:
  
 **Extra:**
 
- - None
+ - **limit**(*int*), sets the number of users that should be returned. Defaulted to 25.
+ - **skip**(*int*), sets the number of users that should be skipped. Defaulted to 0.
+ - **random**(*string*), sets whether the suggestions should be random or not. Can be true, false. Defaulted to false.
 
 RESPONSE FIELDS:
 ----------------
