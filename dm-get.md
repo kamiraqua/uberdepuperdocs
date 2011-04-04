@@ -33,6 +33,8 @@ PARAMETERS:
  - **with**(*string*), returns only direct messages that were send to or received from the given user.(*userid) 
  - **since**(*timestamp*), returns only direct messages since the given date and time.
  - **until**(*timestamp*), returns only direct messages until the given date and time.
+ - **limit**(*int*), sets the number of direct messages that should be returned. Defaulted to 25.
+ - **skip**(*int*), sets the number of direct messages that should be skipped. Defaulted to 0.
 
 **Extra:**
 
