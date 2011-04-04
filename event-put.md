@@ -46,6 +46,10 @@ PARAMETERS:
 	- **users**(*string*), the userid's that are invited to the event. Separated by a ','.
 	- **external**(*string*), an json object containing an array of objects. The json objects are constructed like this: '[{"email":"info@email.com","name":"Personal Name"}]'
 
+- **type**(*string*), If public, the event will be public. If private the event will be private. Defaulted to public.
+- **rsvp**(*bool*), if true, the user is automatically signed up for the event, if false, the user will not be signed up for the event. Defaulted to true.
+
+
 **Extra:**
 
 - None
