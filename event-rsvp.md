@@ -31,7 +31,8 @@ PARAMETERS:
 
 **Extra:**
 
- - None
+ - **status**(*string*), sets the status for the user. Can be attending, ...,..... Defaulted to attending.
+- **activity**(*bool*), if true, the rsvp will be handled as an activity, if false, it will not. Defaulted to true.
  
 RESPONSE FIELDS:
 ----------------
