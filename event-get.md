@@ -46,7 +46,6 @@ PARAMETERS:
  - **sort**(*string*), if start, sorts events by the starting time, if end, sorts events by the ending time, if popular, sorts events by the number of people attending, if undefined, does nothing.  
  - **who**(*string*), if set to friends, returns events that were created by your friends.
  - **hasphoto**(*bool*), if true, returns only events with photos, returns all events otherwise. 
- - **update**(*bool*), 
  - **limit**(*int*), sets the number of events that should be returned. Defaulted to 25.
  - **skip**(*int*), sets the number of events that should be skipped. Defaulted to 0.
  - **when**(*string*), if 'calendar', returns all events that the user signed op to, if 'now', returns all events that are happening right now, if 'upcoming', returns all events that are starting in the future, if 'allways', returns all events. Defaulted to 'allways'.
