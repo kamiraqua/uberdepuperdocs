@@ -39,7 +39,7 @@ PARAMETERS:
  - **limit**(*int*), sets the number of activities that should be returned. Defaulted to 25.
  - **skip**(*int*), sets the number of activities that should be skipped. Defaulted to 0.
  - **radius**(*int*), sets the range in which activities should be returned. Range in kilometers. Defaulted to 1.
- - **show**(*string*,   
+ - **show**(*string*, if 'friends' shows only activities from friends, returns activities of all users that are followed by the logged in user otherwise. Defaulted to 'all'.  
 
 **Extra:**
 
