@@ -28,6 +28,10 @@ PARAMETERS:
 **Optional:**
 
  - **show**(*string*), if 'followers', returns only people that follow the given user, if 'following', returns only people that are followed by the user, returns all otherwise.
+ - **limit**(*int*), sets the number of users that should be returned. Defaulted to -1.
+ - **skip**(*int*), sets the number of users that should be skipped. Defaulted to 0.
+ - **showrelation**(*bool*), If true, the relation will be returned, if false, it will not. Defaulted to false.
+ - **show**(*string*), 
 
 **Extra:**
 
