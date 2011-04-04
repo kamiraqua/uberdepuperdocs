@@ -33,6 +33,9 @@ PARAMETERS:
 **Extra:**
 
  - **basic**(*bool*), if true, returns only the basic information of a user, returns everything otherwise.
+ - **radius**(*int*), sets the range in which to return users. Range in kilometers. Defaulted to 1.
+ - **limit**(*int*), sets the number of users that should be returned. Defaulted to 100.
+ - **skip**(*int*), sets the number of users that should be skipped. Defaulted to 0.
 
 RESPONSE FIELDS:
 ----------------
