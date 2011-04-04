@@ -28,6 +28,8 @@ PARAMETERS:
 **Optional:**
 
  - **checkin**(*bool*), returns only users that acctually checked in at the event.
+ - **limit**(*int*), sets the number of users that should be returned. Defaulted to 100.
+ - **skip*(*int*), sets the number of users that should be skipped. Defaulted to 0.
 
 **Extra:**
 
