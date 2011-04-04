@@ -30,6 +30,8 @@ PARAMETERS:
  - **user**(*string*), returns the medals that were earned by the given user(*userid*)
  - **medal**(*string*), returns only the medal with the given medalid.
  - **earned**(*bool*), if true, returns only medals that were earned by the user, if false, returns only medals that were not earned by the user. Requires user.
+ - **limit**(*int*), sets the number of medals that should be returned. Defaulted to 25.
+ - **skip**(*int*), sets the number of medals that should be skipped. Defaulted to 0.
 
 **Extra:**
 
